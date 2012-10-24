@@ -14,8 +14,8 @@ function fgets_u($pStdn) {
 }
 
 $nickname = "WhatsAPI Test";
-$sender = 	""; // Mobile number with country code (but without + or 00)
-$imei = 	""; // MAC Address for iOS IMEI for other platform (Android/etc) 
+$sender = 	"2176903605"; // Mobile number with country code (but without + or 00)
+$imei = 	"00000000000000"; // MAC Address for iOS IMEI for other platform (Android/etc) 
 
 
 $countrycode = substr($sender, 0, 2);
